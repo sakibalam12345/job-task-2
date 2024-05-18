@@ -1,0 +1,30 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+}
+
+
+.background-image {
+    background-image: url("https://i.ibb.co/4tZDt7N/page-LIFE-in-theuk-test-training-backround.jpg");
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+   
+    
+}
+.background-overlay {
+    background-color: rgba(48, 48, 116, 1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
+    max-width: 1600px; 
+    height: 650px; 
+    background-color: rgba(41, 41, 82, 0.71); 
+}
