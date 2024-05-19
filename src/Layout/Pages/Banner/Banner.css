@@ -11,20 +11,11 @@
     height: 650px;
     background-size: cover;
     background-position:center;
-    background-repeat: no-repeat;
-  
-
-    
-   
-    
+    background-repeat: no-repeat;   
 }
 .background-overlay {
     background-color: rgba(48, 48, 116, 1);
   
-}
-.content {
-    position: relative;
-    z-index: 6;
 }
 
 .overlay {
@@ -38,16 +29,15 @@
     background-image: linear-gradient(to right, rgba(41, 41, 82, 0.71), rgba(26, 22, 85, 0.9));
 }
 
-
 .triangle {
     position: absolute;
     bottom: 0px;
-    left: -120px;
+    left: -180px;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 580px 2023px; /* Adjust width, height */
-    border-color: transparent transparent rgba(219, 71, 70, 1) transparent; /* Adjust color and transparency */
+    border-width: 0 0 590px 2083px; 
+    border-color: transparent transparent rgba(219, 71, 70, 1) transparent;
     z-index: 1; 
 }
 

@@ -4,7 +4,7 @@ const Customerreview = () => {
     return (
         <div>
           <div className="bg-[#F2F2F2]">
-            <div className="max-w-6xl mx-auto ">
+            <div className="max-w-5xl mx-auto ">
                 <div className="flex justify-between items-center">
             <div className=" flex flex-col items-center text-center">
             <img className=" h-12 pb-4" src="https://i.ibb.co/yFkQ06G/reviews-png-3-mini-png.webp" alt="" />

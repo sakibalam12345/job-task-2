@@ -7,10 +7,11 @@ const Navbar = () => {
     return (
         <div >
             <div className="bg-[#262B62]">
-            <div className="max-w-6xl mx-auto h-12 flex justify-between">
+            <div className="max-w-5xl mx-auto h-12 flex justify-between">
             <div className="flex gap-3 items-center justify-center ">
-                <IoCall className="text-red-500 text-lg hover:text-white"></IoCall>
-                <p className="text-white font-poppins text-base hover:text-red-500">01158376502 | 07913256387</p>
+                <div className="group flex items-center gap-1">
+                <IoCall className="text-red-500 text-lg group-hover:text-white transition-colors duration-700  ease-in-out"></IoCall>
+                <p className="text-white font-poppins text-base group-hover:text-red-500 transition-colors duration-700  ease-in-out">01158376502 | 07913256387</p> </div>
             </div>
             <div className="flex gap-4 items-center justify-center text-white text-lg font-medium  hover:text-red-500">
                 <button className="flex justify-center items-center gap-3 px-4 border-l-2 border-blue-950 h-full" >
@@ -22,12 +23,12 @@ const Navbar = () => {
             </div>
            
 
-            <div className="bg-white pt-3 max-w-6xl mx-auto flex gap-16 items-center">
+            <div className="bg-white pt-3 max-w-5xl gap-6 mx-auto flex  items-center">
                 
                     <div>
                     <img className="h-16" src="https://i.ibb.co/71qKhc1/Fast-Track-Training-1.webp" alt="" />
                     </div>
-                    <div className="flex justify-between gap-16 font-bold text-sm font-poppins">
+                    <div className="flex justify-between gap-12 font-bold text-sm font-poppins">
 
                    <NavLink
                     to='/'
