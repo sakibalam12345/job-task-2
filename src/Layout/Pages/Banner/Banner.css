@@ -1,6 +1,7 @@
 .banner-container {
     position: relative;
     width: 100%;
+    
 }
 
 
@@ -11,11 +12,19 @@
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
+  
+
+    
    
     
 }
 .background-overlay {
     background-color: rgba(48, 48, 116, 1);
+  
+}
+.content {
+    position: relative;
+    z-index: 6;
 }
 
 .overlay {
@@ -37,7 +46,8 @@
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 630px 2200px; /* Adjust width, height */
+    border-width: 0 0 580px 2023px; /* Adjust width, height */
     border-color: transparent transparent rgba(219, 71, 70, 1) transparent; /* Adjust color and transparency */
-    z-index: 1; /* Ensure the triangle appears above other content */
+    z-index: 1; 
 }
+
