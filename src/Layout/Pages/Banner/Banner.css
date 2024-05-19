@@ -41,3 +41,22 @@
     z-index: 1; 
 }
 
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) {
+    .triangle {
+        left: -50px;
+        border-width: 0 0 300px 818px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .triangle {
+        left: -30px;
+        border-width: 0 0 200px 455px;
+    }
+}
+
+

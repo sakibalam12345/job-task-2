@@ -1,6 +1,7 @@
 import './Banner.css'
 import { ImCheckmark } from "react-icons/im";
 import { FaCircleChevronRight } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 import { useEffect, useState } from 'react';
 import Aos from 'aos';
 
@@ -42,15 +43,15 @@ const Banner = () => {
         <div className='absolute top-[160px] z-50'>
        
                     {/* left side div */}
-                    <div className='flex justify-between gap-20  items-center pl-10'>
+                    <div className='flex justify-between lg:gap-20 md:gap-16 gap-2  items-center pl-10'>
 
                    
                     <div>
                     <p className='text-white  font-poppins text-base uppercase pb-4'>PASS YOUR HOME OFFICE APPROVED TESTS</p>
-                    <h1 className='text-white font-poppins text-6xl font-bold pb-4'>
+                    <h1 className='text-white font-poppins text-6xl   font-bold pb-4'>
                  <span className='pb-4'>99% PASS</span>    <br /> <span className='pb-4'> RATE</span> <br />
           
-                 <div data-aos="fade-up" data-aos-duration="3000">      <p className='text-white font-poppins text-7xl font-bold pb-14'> FIRST TIME</p>  </div>   </h1>
+                 <div data-aos="fade-up" data-aos-duration="3000">      <p className='text-white font-poppins text-7xl   font-bold pb-14'> FIRST TIME</p>  </div>   </h1>
                    <div className=''>
                    <div className='group'>
                                         <p className='text-white font-poppins text-base flex items-center gap-4 pb-1 group-hover:text-[#DB4746]'>
@@ -81,14 +82,14 @@ const Banner = () => {
                     {/* right side div */}
                     <div className='relative'>
                         <div>
-                            <img className='w-full  mt-36 h-[480px]' src="https://i.ibb.co/wgfy8Ch/smiling-lady-b1-png-1-1-png.webp" alt="" />
+                            <img className='lg:w-full md:w-3/4  mt-36 lg:h-[480px] md:h-[300px]' src="https://i.ibb.co/wgfy8Ch/smiling-lady-b1-png-1-1-png.webp" alt="" />
                         </div>
                         <div>
-                            <img  className='absolute top-40 -left-16  h-[180px]' src="https://i.ibb.co/SsNLfvF/10years2-1-png-1.webp" alt="" />
+                            <img  className='absolute lg:top-40 md:top-12 lg:-left-16 md:left-40 md:z-10   lg:h-[180px] md:h-[100px]' src="https://i.ibb.co/SsNLfvF/10years2-1-png-1.webp" alt="" />
                         </div>
      
                        
-                        <div className='bg-white px-7 py-4 rounded-2xl absolute  -right-16 top-24' data-aos="fade-down" data-aos-duration="3000">
+                        <div className='bg-white px-7 py-4 rounded-2xl absolute  lg:-right-16 top-24' data-aos="fade-down" data-aos-duration="3000">
                             <p className='text-[#2F346F] font-poppins text-base font-bold uppercase'>
                          <span className='text-6xl font-normal pl-4'>{studentCount}K</span> <br /> STUDENTS PASSED! 
                             </p> 
@@ -102,6 +103,13 @@ const Banner = () => {
                  
                 </div>
            
+        </div>
+        <div className='fixed lg:bottom-6 md:bottom-0 bottom-0 lg:right-4 md:right-0 right-0 z-50 w-full sm:w-full md:w-full lg:w-auto'>
+            <button className='bg-[#25d366] w-full lg:w-auto lg:py-4 md:py-3 py-2 lg:px-12  md:w-full hover:bg-sky-700'>
+                <p className='font-poppins text-base flex items-center justify-center gap-2 text-white'>
+                    WhatsApp us <FaWhatsapp />
+                </p>
+            </button>
         </div>
 
         </div>
