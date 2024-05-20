@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="bg-[#262B62]">
                 <div className="max-w-5xl mx-auto h-12 flex justify-between">
                     <div className="flex gap-3 items-center justify-center">
-                        <div className="group flex items-center gap-1">
+                        <div className="group flex items-center gap-1 lg:ml-0 md:ml-7 ml-4">
                             <IoCall className="text-red-500 text-lg group-hover:text-white transition-colors duration-700 ease-in-out"></IoCall>
                             <p className="text-white font-poppins text-base group-hover:text-red-500 transition-colors duration-700 ease-in-out">01158376502 | 07913256387</p>
                         </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
             </div>
 
             <div className="bg-white pt-3 max-w-5xl gap-6 mx-auto flex items-center justify-between">
-                <div>
+                <div className="lg:ml-0 md:ml-2 ml-3">
                     <img className="h-16" src="https://i.ibb.co/71qKhc1/Fast-Track-Training-1.webp" alt="" />
                 </div>
                 <div className="hidden lg:flex justify-between gap-12 font-bold text-sm font-poppins">
@@ -83,7 +83,7 @@ const Navbar = () => {
                         CONTACT US
                     </NavLink>
                 </div>
-                <div className="lg:hidden flex items-center">
+                <div className="lg:hidden md:mr-4 mr-3 flex items-center">
                     <button onClick={toggleMenu}>
                         <FaBars className="text-xl" />
                     </button>
@@ -91,7 +91,7 @@ const Navbar = () => {
             </div>
 
             {isMenuOpen && (
-                <div className="bg-white lg:hidden flex flex-col items-center text-center">
+                <div className="bg-white lg:hidden  flex flex-col items-center text-center">
                     <NavLink
                         to='/'
                         className={({ isActive, isPending }) =>

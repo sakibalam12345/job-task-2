@@ -5,7 +5,7 @@ const Customerreview = () => {
         <div>
           <div className="bg-[#F2F2F2]">
             <div className="max-w-5xl mx-auto ">
-                <div className="flex justify-between items-center">
+                <div className="lg:flex md:flex  lg:justify-between   md:justify-center items-center lg:pt-0 md:pt-0 pt-4">
             <div className=" flex flex-col items-center text-center">
             <img className=" h-12 pb-4" src="https://i.ibb.co/yFkQ06G/reviews-png-3-mini-png.webp" alt="" />
             <p className="uppercase font-poppins font-bold text-xs text-[#2F346F]">4.9 OUT OF 5.0 ON GOOGLE WITH 81 REVIEWS.</p>
