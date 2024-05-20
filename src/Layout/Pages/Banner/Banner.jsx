@@ -49,15 +49,37 @@ const Banner = () => {
                  <span className='lg:pb-4 md:pb-4 pb-1'>99% PASS</span>    <br /> <span className='lg:pb-4 md:pb-4 pb-1'> RATE</span> <br />
           
                     <div data-aos="fade-up" data-aos-duration="3000">  
-                     <p className='text-white font-poppins lg:text-7xl md:text-6xl text-4xl   font-bold lg:pb-14 md:pb-14 pb-6'> FIRST TIME</p>
+                     <p className='text-white font-poppins lg:text-7xl md:text-6xl text-4xl font-bold  '> FIRST TIME</p>
                        </div>   </h1>
-                   <div className='lg:ml-0 md:ml-0 ml-5'>
+                       <div>
+                       <div >
+                       <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+     width="300pt" 
+     height="35.000000pt" viewBox="0 0 300.000000 35.000000"
+     preserveAspectRatio="xMidYMid meet"
+     className="responsive-svg">
+    <metadata>
+    </metadata>
+    <g transform="translate(0.000000,35.000000) scale(0.100000,-0.100000)"
+       fill="#DB4746" stroke="none">
+        <path d="M735 260 c-545 -26 -705 -38 -705 -51 0 -11 16 -11 176 1 393 28 749
+               40 1277 40 485 0 1156 -16 1232 -29 22 -4 -257 -12 -620 -19 -792 -15 -1658
+               -50 -1687 -68 -24 -15 16 -18 159 -12 203 8 830 7 1133 -1 179 -6 204 -8 105
+               -9 -192 -3 -529 -36 -549 -53 -18 -16 1 -19 55 -9 132 24 391 41 762 50 220 6
+               403 13 406 15 2 3 2 7 0 9 -7 7 -947 24 -1249 22 -162 -1 -270 2 -240 5 57 7
+               608 22 1490 40 283 6 517 13 519 15 10 10 -11 13 -144 23 -77 6 -201 16 -275
+               22 -167 13 -1611 20 -1845 9z"/>
+    </g>
+</svg>
+                    </div>
+                       </div>
+                   <div className='lg:ml-0 md:ml-0 ml-5 '>
                    <div className='group '>
                                         <p className='text-white font-poppins text-base flex items-center gap-4  group-hover:text-[#DB4746]'>
                                             <ImCheckmark className='text-[#DB4746] h-8 w-6 group-hover:text-white transition-colors duration-700  ease-in-out' /> Unlimited online training until you pass
                       </p></div>
 
-                    <div >
+                    <div className='group'>
                      <p className='text-white font-poppins text-base flex items-center gap-4  group-hover:text-[#DB4746] transition-colors duration-700 ease-in-out'>
                       <ImCheckmark className='text-[#DB4746] h-8 w-6 group-hover:text-white transition-colors duration-700 ease-in-out' /> Suitable for British citizenship
                          </p>
